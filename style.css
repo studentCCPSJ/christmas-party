@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Merienda:wght@300..900&display=swap');
+:root {
+    --text: #0B032D;
+    --xmas-blue: #B5E2FA;
+    --xmas-green: #2C5530;
+    --xmas-red: #E54B4B;
+}
+
+
+
+
+body {
+    background-color: var(--xmas-blue);
+    color: var(--text);
+    text-align: center;
+    font-family: "Merienda", cursive;
+    list-style-position: inside;
+    cursor: url(./img/bulb.gif), auto;
+}
+
+h1  {
+    font-family: "Ballet", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 40px;
+  }
+
+  hr {
+    width: 70%;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #000000;
+    padding: 0;
+  }
+
+h2  {
+    font-family: "Ballet", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 40px;
+  }
+  
+
+.navbar {
+    a {
+        color: var(--xmas-red);
+        font-size: 24px;
+    }
+}
+
+a {
+    color: var(--xmas-red);
+    cursor: url(./img/wreath.gif), auto;
+}
+
+.info-para {
+    margin-left: 20%;
+    margin-right: 20%;
+    img {
+        display: inline;
+        height: 12px;
+    }
+}
+
+.card-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    gap: 10px;
+}
+.card {
+    img {
+        width: 150px;
+        height: 100px;
+        margin: 10px;
+        object-fit: cover;
+    }
+    p {
+        word-wrap: break-word;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    border-color: var(--xmas-green);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    
+}
